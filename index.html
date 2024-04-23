@@ -1,15 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My weekend schedule</title>
     <style> 
         body { 
             font-family: Comic Sans MS;
             background-color: rgb(176,101,0);
             line-height: 1.7;
+            margin: 0;
+            padding: 0;
         }
         h1 {
             color: rgb(135,206,250);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
         }
         th, td {
             padding: 8px; /* Space in between cells */
@@ -24,42 +33,42 @@
 <body>
     <table>
         <tr>
-            <th></th> <!-- This is the columns for the weekend days -->
+            <th></th> <!-- Columns for the weekend days -->
             <th scope="col">Saturday</th>
             <th scope="col">Sunday</th>
         </tr>
         <tr>
-            <th scope="row">7:00 AM - 7:30 AM</th> <!-- This is the row for 7:00-7:30 AM -->
+            <th scope="row">7:00 AM - 7:30 AM</th> <!-- Row for 7:00-7:30 AM -->
             <td>Wake up</td>
             <td>Wake up</td>
         </tr>
         <tr>
-            <th scope="row">7:30 AM - 8:30 AM</th> <!-- This is the row for 7:00-7:30 AM -->
+            <th scope="row">7:30 AM - 8:30 AM</th> <!-- Row for 7:30-8:30 AM -->
             <td>Use phone</td>
             <td>Use phone</td>
         </tr>
         <tr>
-            <th scope="row">8:30 AM - 12:00 PM</th> <!-- This is the row for  8:30 AM - 12:00 PM -->
+            <th scope="row">8:30 AM - 12:00 PM</th> <!-- Row for 8:30 AM - 12:00 PM -->
             <td>Household chores</td>
             <td>Household chores</td>
         </tr>
         <tr>
-            <th scope="row">12:00 PM - 4:00 PM</th> <!-- This is the row for 12:00 PM - 4:00 PM -->
+            <th scope="row">12:00 PM - 4:00 PM</th> <!-- Row for 12:00 PM - 4:00 PM -->
             <td>Me time</td>
             <td>Me time</td>
         </tr>
         <tr>
-            <th scope="row">4:00 PM - 7:00 PM</th> <!-- This is the row for 4:00 PM - 7:00 PM -->
+            <th scope="row">4:00 PM - 7:00 PM</th> <!-- Row for 4:00 PM - 7:00 PM -->
             <td>Cook, eat, and wash dishes</td>
             <td>Cook, eat, and wash dishes</td>
         </tr>
         <tr>
-            <th scope="row">7:00 PM - 9:00 PM</th> <!-- This is the row for 7:00 PM - 9:00 PM -->
+            <th scope="row">7:00 PM - 9:00 PM</th> <!-- Row for 7:00 PM - 9:00 PM -->
             <td>Cook, eat, and wash dishes</td>
             <td>Cook, eat, wash dishes, iron clothes</td>
         </tr>
         <tr>
-            <th scope="row">9:00 PM - ???</th> <!-- This is the row for when I'm about to sleep -->
+            <th scope="row">9:00 PM - ???</th> <!-- Row for bedtime -->
             <td>Use phone</td>
             <td>Use phone</td>
         </tr>
