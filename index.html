@@ -1,68 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>My weekend schedule</title>
-		<style> 
-		body { 
-			font-family: Comic Sans MS;
-			background-color: rgb(176,101,0);
-			line-height: 1.7;}
-		h1 {
-			color: rgb(135,206,250);}
-		</style>
-	</head>
-	<body>
-		<table>
-			<tr>
-				<th></th> <!-- This is the columns for the weekend days -->
-				<th scope="col"> Saturday </th>
-				<th scope="col"> Sunday </th>
-			</tr>
-			<tr>
-				<th scope="row"> 7:00-7:30 AM </th> <!-- This is the row for 7:00-7:30 AM -->
-				<td> Wake up </td>
-				<td> Wake up </td>
-			</tr>
-			<tr>
-				<th scope="row"> 7:30-8:30 AM </th>  <!-- This is the row for 7:00-7:30 AM -->
-				<td> Use phone </td>
-				<td> Use phone </td>
-			</tr>
-			<tr>
-				<th scope="row"> 8:30 AM - 12:00 PM </th>  <!-- This is the row for  8:30 AM - 12:00 PM-->
-				<td> Household chores </td>
-				<td> Household chores </td>
-			</tr>
-			<tr>
-				<th scope="row"> 12:00 PM - 4:00 PM </th>  <!-- This is the row for 12:00 PM - 4:00 PM -->
-				<td> me time </td>
-				<td> me time </td>
-			</tr>
-			<tr>
-				<th scope="row"> 4:00 PM - 7:00 pm </th>  <!-- This is the row for 4:00 PM - 7:00 pm -->
-				<td> Cook, eat, and wash dishes </td>
-				<td> Cook, eat, and wash dishes </td>
-			</tr>
-			<tr>
-				<th scope="row"> 7:00 PM - 9:00 PM </th>  <!-- This is the row for 7:00 PM - 9:00 PM -->
-				<td> Cook, eat, and wash dishes </td>
-				<td> Cook, eat, wash dishes, iron clothes </td>
-			</tr>
-			<tr>
-				<th scope="row"> 9:00 PM - ???  </th>  <!-- This is the row for when i'm about to sleep -->
-				<td> Use phone </td>
-				<td> Use phone </td>
-			</tr>
-	
-		</table>
+<head>
+    <title>My weekend schedule</title>
+    <style> 
+        body { 
+            font-family: Comic Sans MS;
+            background-color: rgb(176,101,0);
+            line-height: 1.7;
+        }
+        h1 {
+            color: rgb(135,206,250);
+        }
+        th, td {
+            padding: 8px; /* Space in between cells */
+            text-align: center; /* Align text in cell */
+            border: 1px solid black; /* Border for cells */
+        }
+        th {
+            background-color: rgb(135,206,250); /* Background for header cells */
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th></th> <!-- This is the columns for the weekend days -->
+            <th scope="col">Saturday</th>
+            <th scope="col">Sunday</th>
+        </tr>
+        <tr>
+            <th scope="row">7:00-7:30 AM</th> <!-- This is the row for 7:00-7:30 AM -->
+            <td>Wake up</td>
+            <td>Wake up</td>
+        </tr>
+        <tr>
+            <th scope="row">7:30-8:30 AM</th> <!-- This is the row for 7:00-7:30 AM -->
+            <td>Use phone</td>
+            <td>Use phone</td>
+        </tr>
+        <tr>
+            <th scope="row">8:30 AM - 12:00 PM</th> <!-- This is the row for  8:30 AM - 12:00 PM -->
+            <td>Household chores</td>
+            <td>Household chores</td>
+        </tr>
+        <tr>
+            <th scope="row">12:00 PM - 4:00 PM</th> <!-- This is the row for 12:00 PM - 4:00 PM -->
+            <td>Me time</td>
+            <td>Me time</td>
+        </tr>
+        <tr>
+            <th scope="row">4:00 PM - 7:00 pm</th> <!-- This is the row for 4:00 PM - 7:00 pm -->
+            <td>Cook, eat, and wash dishes</td>
+            <td>Cook, eat, and wash dishes</td>
+        </tr>
+        <tr>
+            <th scope="row">7:00 PM - 9:00 PM</th> <!-- This is the row for 7:00 PM - 9:00 PM -->
+            <td>Cook, eat, and wash dishes</td>
+            <td>Cook, eat, wash dishes, iron clothes</td>
+        </tr>
+        <tr>
+            <th scope="row">9:00 PM - ???</th> <!-- This is the row for when I'm about to sleep -->
+            <td>Use phone</td>
+            <td>Use phone</td>
+        </tr>
+    </table>
 
-		<h1> LEGEND/FYI:</h1>
-		<ul> 
-			<li> <b> Household chores:</b> hang clothes, clean, cook, etc.</li>
-			<li> <b> Me time:</b> Play games, read, free time, study</li>
-			<li> <b> also Me time:</b> Burn alive in the heat</li>
-			<li> In the past, I'd walk my dogs in the mornings but then the Philippines became too hot to move so I didn't.</li>
-			<li> I don't know what time I normally sleep.</li>
-		</ul>
-	</body>
+    <h1>LEGEND/FYI:</h1>
+    <ul> 
+        <li><b>Household chores:</b> hang clothes, clean, cook, etc.</li>
+        <li><b>Me time:</b> Play games, read, free time, study</li>
+        <li><b>Also Me time:</b> Burn alive in the heat</li>
+        <li>In the past, I'd walk my dogs in the mornings but then the Philippines became too hot to move so I didn't.</li>
+        <li>I don't know what time I normally sleep.</li>
+    </ul>
+</body>
 </html>
